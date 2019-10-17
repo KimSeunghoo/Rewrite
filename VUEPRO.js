@@ -1,8 +1,10 @@
-Source: var obj = JSON.parse($response.body);
+var body = $response.body;
+var obj = JSON.parse(body);
 
 obj.isCustomized = true;
 obj.isPremium = true;
 obj.active = true;
 
-$done({body: JSON.stringify(obj)});
+body = JSON.stringify(obj);
+$done(body);
 
