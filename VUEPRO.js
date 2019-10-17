@@ -5,3 +5,4 @@ obj.isPremium = true;
 obj.active = true;
 
 $done({body: JSON.stringify(obj)});
+
