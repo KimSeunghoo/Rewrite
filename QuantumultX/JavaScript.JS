@@ -23,3 +23,6 @@ hostname = vsco.co,  api.picsart.com, api.calm.com, www.calm.com, photos.adobe.i
 
 //Documents&PDFExpert
 ^https:\/\/license\.pdfexpert\.com\/api\/.*\/(documents|pdfexpert6)\/subscription\/(refresh$|check$) url script-response-body https://raw.githubusercontent.com/KimSeunghoo/Rewrite/master/QuantumultX/Documents%26PDFExpert.js
+
+//Drafts
+^https:\/\/backend\.getdrafts\.com\/api\/.*\/verification* url script-response-body https://raw.githubusercontent.com/KimSeunghoo/Rewrite/master/QuantumultX/Drafts.js
