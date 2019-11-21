@@ -1,4 +1,4 @@
-hostname = vsco.co,  api.picsart.com, api.calm.com, www.calm.com, photos.adobe.io, license.pdfexpert.com ,dayone.me
+hostname = vsco.co,  api.picsart.com, api.calm.com, www.calm.com, photos.adobe.io, license.pdfexpert.com ,dayone.me, backend.getdrafts.com, 
 
 //VSCO
 ^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ url script-response-body https://raw.githubusercontent.com/KimSeunghoo/Rewrite/master/QuantumultX/VSCO.js
