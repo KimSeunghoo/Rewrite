@@ -11,12 +11,15 @@ hostname = vsco.co,  api.picsart.com, api.calm.com, www.calm.com, photos.adobe.i
 
 
 //PDFExpert
-^https:\/\/license\.pdfexpert\.com\/api\/1\.0\/pdfexpert6\/subscription\/(refresh$|check$) url script-response-body https://raw.githubusercontent.com/KimSeunghoo/Rewrite/master/QuantumultX/Documents.js
+//^https:\/\/license\.pdfexpert\.com\/api\/1\.0\/pdfexpert6\/subscription\/(refresh$|check$) url script-response-body https://raw.githubusercontent.com/KimSeunghoo/Rewrite/master/QuantumultX/Documents.js
 
 
 //Documents
-^https:\/\/license\.pdfexpert\.com\/api\/.*\/documents\/subscription\/(refresh$|check$) url script-response-body https://raw.githubusercontent.com/KimSeunghoo/Rewrite/master/QuantumultX/Documents.js
+//^https:\/\/license\.pdfexpert\.com\/api\/.*\/documents\/subscription\/(refresh$|check$) url script-response-body https://raw.githubusercontent.com/KimSeunghoo/Rewrite/master/QuantumultX/Documents.js
 
 //DayOne
 ^https:\/\/dayone\.me\/api\/(users|v2\/users\/account-status)$ url script-response-body https://raw.githubusercontent.com/KimSeunghoo/Rewrite/master/QuantumultX/DayOne.js
 ^https:\/\/dayone\.me\/api\/users$ url script-response-body DayOne-Pre.js
+
+//Documents&PDFExpert
+^https:\/\/license\.pdfexpert\.com\/api\/.*\/(documents|pdfexpert6)\/subscription\/(refresh$|check$) url script-response-body https://raw.githubusercontent.com/KimSeunghoo/Rewrite/master/QuantumultX/Documents%26PDFExpert.js
