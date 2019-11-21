@@ -8,7 +8,7 @@ hostname = vsco.co,  api.picsart.com, api.calm.com, www.calm.com, photos.adobe.i
 
 //Calm
 ^https:\/\/api\.calm\.com\/me$ url script-response-body https://raw.githubusercontent.com/KimSeunghoo/Rewrite/master/QuantumultX/Calm.js
-
+^https:\/\/www\.calm\.com\/mobile\/manage-subscription\?token=*  url reject-img
 
 //PDFExpert
 //^https:\/\/license\.pdfexpert\.com\/api\/1\.0\/pdfexpert6\/subscription\/(refresh$|check$) url script-response-body https://raw.githubusercontent.com/KimSeunghoo/Rewrite/master/QuantumultX/Documents.js
