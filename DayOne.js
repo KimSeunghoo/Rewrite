@@ -1,3 +1,8 @@
+/*
+^https:\/\/dayone\.me\/api\/(users|v2\/users\/account-status)$ url script-response-body dayone.js
+^https:\/\/dayone\.me\/api\/users$ url script-response-body dayone-pre.js
+*/
+
 if ($response.statusCode == 200) {
         if ($request.url.endsWith("account-status")) {
 
