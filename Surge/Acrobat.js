@@ -1,9 +1,9 @@
 /*
 Unlock Acrobat Pro 的编辑和整理页面功能，无法使用需要联网的转换、导出和合并功能
 
-http-response ^https:\/\/createpdf-asr\.acrobat\.com\/createpdf\/api\/users\/me\/(subscriptions|limits) requires-body=1,max-size=0,script-path=scripts/acrobat.js
-http-response ^https:\/\/dc-api\.adobe\.io\/\d+\/discovery\/resources\/assets\/exportpdf\/options$ requires-body=1,max-size=0,script-path=scripts/acrobat.js
-http-response ^https:\/\/dc-api-v2\.adobe\.io\/\d+\/users\/self\/limits\/conversions$ requires-body=1,max-size=0,script-path=scripts/acrobat.js
+http-response ^https:\/\/createpdf-asr\.acrobat\.com\/createpdf\/api\/users\/me\/(subscriptions|limits) requires-body=1,max-size=0,script-path=scripts/Acrobat.js
+http-response ^https:\/\/dc-api\.adobe\.io\/\d+\/discovery\/resources\/assets\/exportpdf\/options$ requires-body=1,max-size=0,script-path=scripts/Acrobat.js
+http-response ^https:\/\/dc-api-v2\.adobe\.io\/\d+\/users\/self\/limits\/conversions$ requires-body=1,max-size=0,script-path=scripts/Acrobat.js
 
 Mitm = createpdf-asr.acrobat.com, dc-api.adobe.io, dc-api-v2.adobe.io
 
