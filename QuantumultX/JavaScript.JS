@@ -1,4 +1,4 @@
-hostname = vsco.co,  api.picsart.com, api.calm.com, www.calm.com, photos.adobe.io, license.pdfexpert.com ,dayone.me, backend.getdrafts.com, 
+hostname = vsco.co,  api.picsart.com, api.calm.com, www.calm.com, photos.adobe.io, license.pdfexpert.com ,dayone.me, backend.getdrafts.com,api.textnow.me
 
 //VSCO
 ^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ url script-response-body https://raw.githubusercontent.com/KimSeunghoo/Rewrite/master/QuantumultX/VSCO.js
@@ -26,3 +26,6 @@ hostname = vsco.co,  api.picsart.com, api.calm.com, www.calm.com, photos.adobe.i
 
 //Drafts
 ^https:\/\/backend\.getdrafts\.com\/api\/.*\/verification* url script-response-body https://raw.githubusercontent.com/KimSeunghoo/Rewrite/master/QuantumultX/Drafts.js
+
+//TextNow
+^https:\/\/api\.textnow\.me\/api2.0\/users\/* url script-response-body https://raw.githubusercontent.com/KimSeunghoo/Rewrite/master/QuantumultX/TextNow.js
