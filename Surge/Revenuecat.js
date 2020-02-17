@@ -1,3 +1,5 @@
+//Support mojo Pro,Airmail Premium,Noto Pro
+
 let obj = JSON.parse($response.body);
 obj["subscriber"]["subscriptions"]= {
       "revenuecat.pro.yearly": {
