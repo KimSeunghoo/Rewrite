@@ -4,8 +4,5 @@ hostname=*.tapbots.net
 */
 
 let obj = JSON.parse($response.body);
-obj["product_id"]= "com.tapbots.Ivory.monthly1",
-obj["expires_at"]= 4098009658,
-obj["valid_until"]= 4098009658,
-obj["auto_renew_status"]= true,
+obj={"transactions":[{"product_id":"com.tapbots.Ivory.yearly1","expires_at":4098009658, "valid_until":4098009658, "auto_renew_status": true}]};
 $done({body: JSON.stringify(obj)});
