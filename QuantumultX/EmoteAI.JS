@@ -1,5 +1,5 @@
 
-var emote = {
+var emote ={
   "request_date_ms" : 1665976535050,
   "request_date" : "2022-10-17T03:15:35Z",
   "subscriber" : {
@@ -30,13 +30,13 @@ var emote = {
       "pro" : {
         "grace_period_expires_date" : null,
         "purchase_date" : "2022-10-16T17:12:52Z",
-        "product_identifier" : "$rc_lifetime",
+        "product_identifier" : "Monthly",
         "expires_date" : "2100-08-17T12:22:48Z"
       },
       "testPro" : {
         "grace_period_expires_date" : null,
         "purchase_date" : "2022-10-16T17:12:52Z",
-        "product_identifier" : "$rc_lifetime",
+        "product_identifier" : "Monthly",
         "expires_date" : "2100-08-17T12:22:48Z"
       }
     },
@@ -44,7 +44,7 @@ var emote = {
     "original_app_user_id" : "$RCAnonymousID:bfe8143dbd7e4f6fb72c66b0807da731",
     "last_seen" : "2022-10-16T15:11:27Z"
   }
-};
+}
 
 
 $done({
