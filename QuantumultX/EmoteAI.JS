@@ -13,7 +13,7 @@ var emote ={
     },
     "management_url" : "https://apps.apple.com/account/subscriptions",
     "subscriptions" : {
-      "Monthly" : {
+      "LifetimeMembership" : {
         "is_sandbox" : false,
         "ownership_type" : "PURCHASED",
         "billing_issues_detected_at" : null,
