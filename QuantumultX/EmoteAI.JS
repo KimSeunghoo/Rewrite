@@ -30,13 +30,13 @@ var emote ={
       "pro" : {
         "grace_period_expires_date" : null,
         "purchase_date" : "2022-10-16T17:12:52Z",
-        "product_identifier" : "Monthly",
+        "product_identifier" : "LifetimeMembership",
         "expires_date" : "2100-08-17T12:22:48Z"
       },
       "testPro" : {
         "grace_period_expires_date" : null,
         "purchase_date" : "2022-10-16T17:12:52Z",
-        "product_identifier" : "Monthly",
+        "product_identifier" : "LifetimeMembership",
         "expires_date" : "2100-08-17T12:22:48Z"
       }
     },
