@@ -44,7 +44,8 @@ var emote = {
     "original_app_user_id" : "$RCAnonymousID:bfe8143dbd7e4f6fb72c66b0807da731",
     "last_seen" : "2022-10-16T15:11:27Z"
   }
-}
+};
+
 
 $done({
         body: JSON.stringify(emote)
