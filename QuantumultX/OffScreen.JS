@@ -12,13 +12,13 @@ var guding = JSON.parse($response.body);
 guding.subscriber.entitlements = {
   "Entitlement.Pro": {
     "expires_date": "2100-01-01T06:06:06Z",
-    "product_identifier": "tech.miidii.offscreen.subscription.year.intro.first_year_discount",
+    "product_identifier": "tech.miidii.offscreen.pro",
     "purchase_date": "2023-02-23T02:33:33Z"
   }
 };
 guding.subscriber.original_purchase_date = "2023-02-23T03:33:33Z";
 guding.subscriber.subscriptions = {
-  "tech.miidii.offscreen.subscription.year.intro.first_year_discount": {
+  "tech.miidii.offscreen.pro": {
     "expires_date": "2100-01-01T06:06:06Z",
     "original_purchase_date": "2023-02-23T02:33:33Z",
     "purchase_date": "2023-02-23T02:33:33Z",
