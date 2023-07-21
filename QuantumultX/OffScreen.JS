@@ -11,7 +11,7 @@ hostname = api.revenuecat.com
 var guding = JSON.parse($response.body);
 guding.subscriber.entitlements = {
   "Entitlement.Pro": {
-    "expires_date": "6666-06-06T06:06:06Z",
+    "expires_date": "2100-01-01T06:06:06Z",
     "product_identifier": "tech.miidii.offscreen.subscription.year.intro.first_year_discount",
     "purchase_date": "2023-02-23T02:33:33Z"
   }
@@ -19,7 +19,7 @@ guding.subscriber.entitlements = {
 guding.subscriber.original_purchase_date = "2023-02-23T03:33:33Z";
 guding.subscriber.subscriptions = {
   "tech.miidii.offscreen.subscription.year.intro.first_year_discount": {
-    "expires_date": "6666-06-06T06:06:06Z",
+    "expires_date": "2100-01-01T06:06:06Z",
     "original_purchase_date": "2023-02-23T02:33:33Z",
     "purchase_date": "2023-02-23T02:33:33Z",
     "ownership_type" : "PURCHASED",
