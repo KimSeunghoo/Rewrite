@@ -10,7 +10,7 @@ hostname = api.revenuecat.com
 */
 var offScreen = JSON.parse($response.body);
 offScreen.subscriber.entitlements = {
-  "Entitlement.pro": {
+  "Entitlement.Pro": {
     "expires_date": "2100-01-01T00:00:00Z",
     "product_identifier": "tech.miidii.offscreen.pro",
     "purchase_date": "2023-01-01T00:00:01Z"
