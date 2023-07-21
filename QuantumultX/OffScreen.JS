@@ -11,9 +11,19 @@ hostname = api.revenuecat.com
 var offScreen = JSON.parse($response.body);
 offScreen.subscriber.entitlements = {
   "Entitlement.pro": {
-    "expires_date": "2100-01-01T06:06:06Z",
+    "expires_date": "2100-01-01T00:00:00Z",
     "product_identifier": "tech.miidii.offscreen.pro",
-    "purchase_date": "2023-02-23T02:33:33Z"
+    "purchase_date": "2023-01-01T00:00:01Z"
+  }
+};
+offScreen.subscriber.original_purchase_date = "2023-01-01T00:00:01Z";
+offScreen.subscriber.subscriptions = {
+  "tech.miidii.offscreen.pro": {
+    "expires_date": "2100-01-01T00:00:00Z",
+    "original_purchase_date": "2023-01-01T00:00:01Z",
+    "purchase_date": "2023-01-01T00:00:01Z",
+    "ownership_type" : "PURCHASED",
+    "store" : "app_store"
   }
 };
 
