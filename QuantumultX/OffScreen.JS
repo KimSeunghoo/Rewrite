@@ -13,7 +13,7 @@ OffScreen.subscriber.entitlements = {
   "Entitlement.Pro": {
     "expires_date": "2100-01-01T00:00:00Z",
     "product_identifier": "tech.miidii.offscreen.subscription.pro",
-    "purchase_date": "2023-02-23T02:33:33Z"
+    "purchase_date": "2023-01-01T00:00:00Z"
   }
 };
 OffScreen.subscriber.original_purchase_date = "2023-01-01T00:00:00Z";
