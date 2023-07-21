@@ -8,22 +8,22 @@ OffScreen：https://apps.apple.com/app/id1474340105
 hostname = api.revenuecat.com
 
 */
-var offScreen = JSON.parse($response.body);
-offScreen.subscriber.entitlements = {
+var guding = JSON.parse($response.body);
+guding.subscriber.entitlements = {
   "Entitlement.Pro": {
-    "expires_date": null,
+    "expires_date": "6666-06-06T06:06:06Z",
     "product_identifier": "tech.miidii.offscreen.subscription.year.intro.first_year_discount",
-    "purchase_date": "2023-01-01T00:01:01Z"
+    "purchase_date": "2023-02-23T02:33:33Z"
   }
 };
-offScreen.subscriber.original_purchase_date = "2023-01-01T00:01:01Z";
-offScreen.subscriber.subscriptions = {
+guding.subscriber.original_purchase_date = "2023-02-23T03:33:33Z";
+guding.subscriber.subscriptions = {
   "tech.miidii.offscreen.subscription.year.intro.first_year_discount": {
-    "expires_date": null,
-    "original_purchase_date": "2023-01-01T00:01:01Z,
-    "purchase_date": "2023-01-01T00:01:01Z",
+    "expires_date": "6666-06-06T06:06:06Z",
+    "original_purchase_date": "2023-02-23T02:33:33Z",
+    "purchase_date": "2023-02-23T02:33:33Z",
     "ownership_type" : "PURCHASED",
     "store" : "app_store"
   }
 };
-$done({ body: JSON.stringify(offScreen) });
+$done({ body: JSON.stringify(guding) });
