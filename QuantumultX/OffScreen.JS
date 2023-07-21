@@ -3,9 +3,7 @@
 OffScreen：https://apps.apple.com/app/id1474340105
 
 [rewrite_local]
-^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/Seunghoo/Rewrite/QuantumultX
-/main/OffScreen.JS
-
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/KimSeunghoo/Rewrite/main/QuantumultX/OffScreen.JS
 [MITM]
 hostname = api.revenuecat.com
 
