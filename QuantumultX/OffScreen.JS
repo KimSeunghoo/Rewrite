@@ -19,7 +19,7 @@ offScreen.subscriber.entitlements = {
 offScreen.subscriber.original_purchase_date = "2023-02-23T03:33:33Z";
 offScreen.subscriber.subscriptions = {
   "tech.miidii.offscreen.pro.e": {
-    "expires_date": null,
+    "expires_date": "2100-01-01T06:06:06Z",
     "original_purchase_date": "2023-02-23T02:33:33Z",
     "purchase_date": "2023-02-23T02:33:33Z",
     "ownership_type" : "PURCHASED",
