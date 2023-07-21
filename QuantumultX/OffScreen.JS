@@ -12,18 +12,9 @@ var offScreen = JSON.parse($response.body);
 offScreen.subscriber.entitlements = {
   "Entitlement.pro": {
     "expires_date": "2100-01-01T06:06:06Z",
-    "product_identifier": "tech.miidii.offscreen.pro.e",
+    "product_identifier": "tech.miidii.offscreen.pro",
     "purchase_date": "2023-02-23T02:33:33Z"
   }
 };
-offScreen.subscriber.original_purchase_date = "2023-02-23T03:33:33Z";
-offScreen.subscriber.subscriptions = {
-  "tech.miidii.offscreen.pro.e": {
-    "expires_date": "2100-01-01T06:06:06Z",
-    "original_purchase_date": "2023-02-23T02:33:33Z",
-    "purchase_date": "2023-02-23T02:33:33Z",
-    "ownership_type" : "PURCHASED",
-    "store" : "app_store"
-  }
-};
+
 $done({ body: JSON.stringify(offScreen) });
