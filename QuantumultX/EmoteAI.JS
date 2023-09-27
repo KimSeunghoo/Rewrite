@@ -1,1 +1,51 @@
-var _0x120bdd=function(){var t=!0;return function(_,r){var e=t?function(){if(r){var e=r.apply(_,arguments);return r=null,e}}:function(){};return t=!1,e}}(),_0x5b894f=_0x120bdd(this,function(){var e=function(){return!e.constructor('return /" + this + "/')().compile("^([^ ]+( +[^ ]+)+)+[^ ]}").test(_0x5b894f)};return e()});_0x5b894f();var _0x256451=JSON.parse($response.body),_0x1156ce={expires_date:null,grace_period_expires_date:null,product_identifier:"LifetimeMembership",purchase_date:"2022-10-16T17:12:52Z"},_0x24b10f={expires_date:null,grace_period_expires_date:null,product_identifier:"LifetimeMembership",purchase_date:"2022-10-16T17:12:52Z"},_0x98fa30={};_0x98fa30.pro=_0x1156ce,_0x98fa30.testPro=_0x24b10f;var _0x2f371e={billing_issues_detected_at:null,expires_date:null,grace_period_expires_date:null,is_sandbox:!1,original_purchase_date:"2022-10-16T17:12:55Z",ownership_type:"PURCHASED",period_type:"normal",purchase_date:"2022-10-16T17:12:52Z",store:"app_store",unsubscribe_detected_at:"2022-10-16T17:21:23Z"},_0xdf6929={};_0xdf6929.LifetimeMembership=_0x2f371e;var _0x5985f1={};_0x5985f1.entitlements=_0x98fa30,_0x5985f1.first_seen="2022-10-16T15:11:27Z",_0x5985f1.last_seen="2022-10-16T15:11:27Z",_0x5985f1.management_url="https://apps.apple.com/account/subscriptions",_0x5985f1.non_subscriptions={},_0x5985f1.original_app_user_id="$RCAnonymousID:bfe8143dbd7e4f6fb72c66b0807da731",_0x5985f1.original_application_version="2",_0x5985f1.original_purchase_date="2022-10-16T15:11:00Z",_0x5985f1.other_purchases={},_0x5985f1.subscriptions=_0xdf6929;var _0x189902={request_date:"2022-10-17T03:15:35Z",request_date_ms:1665976535050};_0x189902.subscriber=_0x5985f1,_0x256451=_0x189902;var _0x6f2254={};_0x6f2254.body=JSON.stringify(_0x256451),$done(_0x6f2254);
+var emote = {
+  "request_date_ms": 1695832045768,
+  "request_date": "2023-09-27T16:27:25Z",
+  "subscriber": {
+    "non_subscriptions": {
+    },
+    "first_seen": "2023-09-27T16:22:51Z",
+    "original_application_version": "1",
+    "other_purchases": {
+    },
+    "management_url": "https:\/\/apps.apple.com\/account\/subscriptions",
+    "subscriptions": {
+      "Yearly": {
+        "original_purchase_date": "2023-09-27T16:23:44Z",
+        "expires_date": "2099-01-01T12:20:00Z",
+        "is_sandbox": false,
+        "refunded_at": null,
+        "store_transaction_id": "470001663439451",
+        "unsubscribe_detected_at": null,
+        "grace_period_expires_date": null,
+        "period_type": "normal",
+        "purchase_date": "2023-09-27T16:23:43Z",
+        "billing_issues_detected_at": null,
+        "ownership_type": "PURCHASED",
+        "store": "app_store",
+        "auto_resume_date": null
+      }
+    },
+    "entitlements": {
+      "pro": {
+        "grace_period_expires_date": null,
+        "purchase_date": "2023-09-27T16:23:43Z",
+        "product_identifier": "Yearly",
+        "expires_date": "2099-01-01T12:20:00Z"
+      },
+      "testPro": {
+        "grace_period_expires_date": null,
+        "purchase_date": "2023-09-27T16:23:43Z",
+        "product_identifier": "Yearly",
+        "expires_date": "2099-01-01T12:20:00Z"
+      }
+    },
+    "original_purchase_date": "2023-09-27T16:21:48Z",
+    "original_app_user_id": "$RCAnonymousID:b16f94b12cb340b4a54fa5d04e194f83",
+    "last_seen": "2023-09-27T16:22:51Z"
+  }
+};
+
+$done({
+        body: JSON.stringify(emote)
+    })
