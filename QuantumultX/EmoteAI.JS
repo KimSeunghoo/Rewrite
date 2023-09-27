@@ -1,3 +1,18 @@
+/******************************
+Emote - 聊天式笔记
+
+*******************************
+
+[rewrite_local]
+
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/KimSeunghoo/Rewrite/main/QuantumultX/Emote.JS
+
+[mitm] 
+
+hostname = api.revenuecat.com
+
+*******************************/
+
 var emote = {
   "request_date_ms": 1695832045768,
   "request_date": "2023-09-27T16:27:25Z",
