@@ -8,7 +8,7 @@ var _0x487281 = {
     'other_purchases': {},
     'management_url': 'itms-apps://apps.apple.com/account/subscriptions',
     'subscriptions': {
-      'grow_lifetime"': {
+      'grow_3699_lifetime"': {
         'is_sandbox': false,
         'ownership_type': 'PURCHASED',
         'billing_issues_detected_at': null,
@@ -25,7 +25,7 @@ var _0x487281 = {
       'grow.pro': {
         'grace_period_expires_date': null,
         'purchase_date': '2022-01-10T06:12:55Z',
-        'product_identifier': 'grow_lifetime"',
+        'product_identifier': 'grow_3699_lifetime"',
         'expires_date': '2090-01-01T00:00:00Z'
       }
     },
