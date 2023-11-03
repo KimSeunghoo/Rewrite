@@ -4,8 +4,8 @@
 
 
 [Script]
-http-response ^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/(\$RCAnonymousID\%)?(\w)+$ script-path = https://raw.githubusercontent.com/KimSeunghoo/Rewrite/main/QuantumultX/Grow.js, requires-body = true, tag = Grow解锁
-http-response ^https?:\/\/api\.revenuecat\.com\/v\d\/receipts$ script-path = https://raw.githubusercontent.com/KimSeunghoo/Rewrite/main/QuantumultX/Grow.js, requires-body = true, tag = Grow解锁
+http-response ^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/(\$RCAnonymousID\%)?(\w)+$ script-path = https://raw.githubusercontent.com/KimSeunghoo/Rewrite/main/QuantumultX/GrowTest.js, requires-body = true, tag = Grow解锁
+http-response ^https?:\/\/api\.revenuecat\.com\/v\d\/receipts$ script-path = https://raw.githubusercontent.com/KimSeunghoo/Rewrite/main/QuantumultX/GrowTest.js, requires-body = true, tag = Grow解锁
 
 [Mitm]
 hostname = api.revenuecat.com
