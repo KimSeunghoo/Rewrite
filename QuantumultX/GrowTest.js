@@ -1,1 +1,37 @@
-var _0x487281 = { 'request_date_ms': 1642659888888, 'request_date': '2022-01-10T06:13:40Z', 'subscriber': { 'non_subscriptions': {}, 'first_seen': '\x32\x30\x32\x32\x2d\x30\x31\x2d\x31\x30\x54\x30\x34\x3a\x31\x36\x3a\x33\x35\x5a', 'original_application_version': '631', 'other_purchases': {}, 'management_url': 'itms-apps://apps.apple.com/account/subscriptions', 'subscriptions': { 'grow_lifetime"': { 'is_sandbox': ![], 'ownership_type': 'PURCHASED', 'billing_issues_detected_at': null, 'period_type': 'active', 'expires_date': '\x32\x30\x39\x30\x2d\x30\x31\x2d\x30\x31\x54\x30\x30\x3a\x30\x30\x3a\x30\x30\x5a', 'grace_period_expires_date': null, 'unsubscribe_detected_at': null, 'original_purchase_date': '2022-01-10T06:12:56Z', 'purchase_date': '\x32\x30\x32\x32\x2d\x30\x31\x2d\x31\x30\x54\x30\x36\x3a\x31\x32\x3a\x35\x35\x5a', 'store': 'app_store' } }, 'entitlements': { 'grow.pro': { 'grace_period_expires_date': null, 'purchase_date': '\x32\x30\x32\x32\x2d\x30\x31\x2d\x31\x30\x54\x30\x36\x3a\x31\x32\x3a\x35\x35\x5a', 'product_identifier': 'grow_lifetime"', 'expires_date': '\x32\x30\x39\x30\x2d\x30\x31\x2d\x30\x31\x54\x30\x30\x3a\x30\x30\x3a\x30\x30\x5a' } }, 'original_purchase_date': '2022-01-10T01:08:16Z', 'original_app_user_id': '$RCAnonymousID:64de6719695a4fc2a06afa24898888e3', 'last_seen': '2022-01-10T04:16:35Z' } }; $done({ 'body': JSON['\x73\x74\x72\x69\x6e\x67\x69\x66\x79'](_0x487281) });
+var _0x487281 = {
+  'request_date_ms': 1642659888888,
+  'request_date': '2022-01-10T06:13:40Z',
+  'subscriber': {
+    'non_subscriptions': {},
+    'first_seen': '2022-01-10T04:16:35Z',
+    'original_application_version': '631',
+    'other_purchases': {},
+    'management_url': 'itms-apps://apps.apple.com/account/subscriptions',
+    'subscriptions': {
+      'grow_lifetime"': {
+        'is_sandbox': false,
+        'ownership_type': 'PURCHASED',
+        'billing_issues_detected_at': null,
+        'period_type': 'active',
+        'expires_date': '2090-01-01T00:00:00Z',
+        'grace_period_expires_date': null,
+        'unsubscribe_detected_at': null,
+        'original_purchase_date': '2022-01-10T06:12:56Z',
+        'purchase_date': '2022-01-10T06:12:55Z',
+        'store': 'app_store'
+      }
+    },
+    'entitlements': {
+      'grow.pro': {
+        'grace_period_expires_date': null,
+        'purchase_date': '2022-01-10T06:12:55Z',
+        'product_identifier': 'grow_lifetime"',
+        'expires_date': '2090-01-01T00:00:00Z'
+      }
+    },
+    'original_purchase_date': '2022-01-10T01:08:16Z',
+    'original_app_user_id': '$RCAnonymousID:64de6719695a4fc2a06afa24898888e3',
+    'last_seen': '2022-01-10T04:16:35Z'
+  }
+};
+$done({ 'body': JSON.stringify(_0x487281) });
