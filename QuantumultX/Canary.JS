@@ -1,3 +1,5 @@
+let obj = JSON.parse($response.body);
+obj =
 {
 "status": 200,
 "purchases": [
@@ -22,3 +24,4 @@
 }
 ]
 }
+$done({body: JSON.stringify(obj)});
