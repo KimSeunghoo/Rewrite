@@ -36,7 +36,7 @@ if (typeof $response == "undefined") {
   var UA = $request.headers['user-agent'];
   const app = 'gd';
   const UAMappings = {
-    'Subtrack':{ name: 'pro', id: 'lori_pro_onetime'},
+    'Lori':{ name: 'pro', id: 'lori_pro_onetime'},
   };
   const data = {
     "expires_date": "2100-01-01T01:01:01Z",
