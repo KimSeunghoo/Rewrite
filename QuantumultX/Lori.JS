@@ -3,7 +3,11 @@
 
 [rewrite_local]
 
-^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/KimSeunghoo/Rewrite/main/QuantumultX/Lori.JS
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/KimSeunghoo/Rewrite/main/QuantumultX/Lori.JS
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://raw.githubusercontent.com/KimSeunghoo/Rewrite/main/QuantumultX/Lori.JS
+^https?:\/\/app-measurement\.com\/config\/app url reject
+^https?:\/\/firestore\.googleapis\.com url reject
+
 
 [mitm] 
 
@@ -43,12 +47,6 @@ var emote = {
       }
     },
     "entitlements": {
-      "pro": {
-        "grace_period_expires_date": null,
-        "purchase_date": "2023-09-27T16:23:43Z",
-        "product_identifier": "lifetime-pro",
-        "expires_date": "2100-01-01T12:00:13Z"
-      },
       "pro": {
         "grace_period_expires_date": null,
         "purchase_date": "2023-09-27T16:23:43Z",
