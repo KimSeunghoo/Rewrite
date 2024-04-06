@@ -26,7 +26,7 @@ var emote = {
     "other_purchases": {
     },
 "subscriptions": {
-      "lifetime-pro": {
+      "pro": {
         "original_purchase_date": "2023-09-27T16:23:44Z",
         "expires_date": "2100-01-01T12:00:13Z",
         "is_sandbox": false,
@@ -43,16 +43,16 @@ var emote = {
       }
     },
     "entitlements": {
-      "lifetime-pro": {
+      "pro": {
         "grace_period_expires_date": null,
         "purchase_date": "2023-09-27T16:23:43Z",
         "product_identifier": "lifetime-pro",
         "expires_date": "2100-01-01T12:00:13Z"
       },
-      "lori_pro_onetime": {
+      "pro": {
         "grace_period_expires_date": null,
         "purchase_date": "2023-09-27T16:23:43Z",
-        "product_identifier": "lifetime-pro",
+        "product_identifier": "lori_pro_onetime",
         "expires_date": "2100-01-01T12:00:13Z"
       }
     },
