@@ -36,7 +36,7 @@ if (typeof $response == "undefined") {
   var UA = $request.headers['user-agent'];
   const app = 'gd';
   const UAMappings = {
-    'Lori':{ name: 'pro', id: 'lori_pro_onetime'},
+    'Lori':{ name: 'guided', id: 'lori_229.99_1Y_family'},
   };
   const data = {
     "expires_date": "2100-01-01T01:01:01Z",
