@@ -39,7 +39,7 @@ if (typeof $response == "undefined") {
     'ShellBoxKit':{ name: 'ssh_pro', id: 'ShellBoxKit.Lifetime'},
   };
   const data = {
-    "expires_date":"",
+    "expires_date":"2100-01-01T01:01:01Z",
     "original_purchase_date": "2023-02-23T02:33:33Z",
     "purchase_date": "2023-02-23T02:33:33Z",
     "ownership_type": "PURCHASED",
