@@ -36,7 +36,7 @@ if (typeof $response == "undefined") {
   var UA = $request.headers['user-agent'];
   const app = 'App';
   const UAMappings = {
-    'ShellBoxKit':{ name: 'Pro', id: 'ShellBoxKit.Lifetime'},
+    'ShellBoxKit':{ name: 'ssh_pro', id: 'ShellBoxKit.Lifetime'},
   };
   const data = {
     "expires_date": "2100-01-01T01:01:01Z",
