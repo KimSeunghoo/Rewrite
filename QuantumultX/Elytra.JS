@@ -36,7 +36,7 @@ if (typeof $response == "undefined") {
   var UA = $request.headers['user-agent'];
   const app = 'gd';
   const UAMappings = {
-    'Elytra':{ name: 'guided', id: 'com.dezinezync.elytra.yearly'},
+    'Elytra':{ name: 'Subscription', id: 'com.dezinezync.elytra.yearly'},
   };
   const data = {
     "expires_date": "2100-01-01T01:01:01Z",
