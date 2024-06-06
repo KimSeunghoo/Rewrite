@@ -36,10 +36,9 @@ if (typeof $response == "undefined") {
   var UA = $request.headers['user-agent'];
   const app = 'gd';
   const UAMappings = {
-    'Elytra':{ name: 'Subscription', id: 'com.dezinezync.elytra.yearly'},
+    'Elytra':{ name: 'Lifetime', id: 'com.dezinezync.elytra.life'},
   };
   const data = {
-    "expires_date": "2100-01-01T01:01:01Z",
     "original_purchase_date": "2023-02-23T02:33:33Z",
     "purchase_date": "2023-02-23T02:33:33Z",
     "ownership_type": "PURCHASED",
