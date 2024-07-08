@@ -36,7 +36,9 @@ if (typeof $response == "undefined") {
   var UA = $request.headers['user-agent'];
   const app = 'App';
   const UAMappings = {
-    'TwiConnect':{ name: 'pro', id: 'twiconnect_monthly_subscription'},
+    'TwiConnect':{ name: 'sms', id: 'v2_pro_yearly'},
+    'TwiConnect':{ name: 'additional_services', id: 'v2_pro_yearly'},
+    'TwiConnect':{ name: 'voice', id: 'v2_pro_yearly'},
   };
   const data = {
     "expires_date":"2100-01-01T01:01:01Z",
