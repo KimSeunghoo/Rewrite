@@ -1,4 +1,4 @@
-{
+var Forward = {
   "request_date_ms": 1728305971429,
   "request_date": "2024-10-07T12:59:31Z",
   "subscriber": {
@@ -49,4 +49,8 @@
     "original_app_user_id": "fa33c7fb0aeb4087b03a38c1e697c9ce",
     "last_seen": "2024-10-07T12:57:10Z"
   }
-}
+};
+
+$done({
+        body: JSON.stringify(Forward)
+    })
